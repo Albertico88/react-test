@@ -1,5 +1,7 @@
-### Testing React
 ## Testing out React by building a landing page.
+
+## Local Server
+Run on localhost with `npm start`
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
