@@ -1,12 +1,14 @@
 import React from 'react';
-
+import './Footer.css';
 
 const Footer = () => {
-
-
   return (
-    <div className="App">
-      My Footer
+    <div>
+      <footer className="footer is-primary">
+
+      </footer>
+
+
     </div>
   );
 };

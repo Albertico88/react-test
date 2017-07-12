@@ -22,4 +22,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # linters
-.jshintrc
+.eslintrc.js
