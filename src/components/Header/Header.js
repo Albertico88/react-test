@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import './Header.css';
-
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
-
-
-
   render() {
     return (
 
-
       <nav className="navbar">
         <div className="navbar-brand">
-          <a className="navbar-item logo" href="#">Logo Here</a>
+          
+          <Link to="/" className="navbar-item logo" href="#">Logo Here</Link>
 
           <div className="navbar-burger">
             <span></span>
@@ -23,10 +20,11 @@ class Header extends Component {
 
         <div className="navbar-menu">
           <div className="navbar-end">
-            <a className="navbar-item">Home</a>
-            <a className="navbar-item">FAQ</a>
-            <a className="navbar-item">About</a>
-            <a className="navbar-item">Contact</a>
+
+            <Link to="/" className="navbar-item">Home</Link>
+            <Link to="/faq" className="navbar-item">FAQ</Link>
+            <Link to="/faq" className="navbar-item">About</Link>
+            <Link to="/faq" className="navbar-item">Contact</Link>
 
           <div className="navbar-item">
             <p className="control">
@@ -42,8 +40,6 @@ class Header extends Component {
           </div>
         </div>
       </nav>
-
-
     );
   }
 }
