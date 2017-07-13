@@ -1,0 +1,36 @@
+.hero {
+  background: url(../../assets/desk.jpg);
+  background-size: cover;
+  background-position: 0 55%; }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-weight: bold; } }
+
+@media screen and (min-width: 769px), print {
+  .title {
+    font-size: 2.5rem; } }
+
+@media screen and (min-width: 1000px) {
+  .title {
+    font-size: 4rem;
+    margin-top: 2rem; } }
+
+h2 {
+  margin: 1.5rem 0 2rem 0 !important;
+  color: black; }
+
+.fa-cog {
+  font-size: 40px; }
+
+@media screen and (min-width: 1000px) {
+  #learn {
+    margin-bottom: 2rem; } }
+
+@media screen and (min-width: 769px), print {
+  .pd {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em; } }
+
+.fa-cog {
+  padding-top: 50px; }
